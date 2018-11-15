@@ -1,0 +1,29 @@
+.shaded-area {
+    background-color: rgb(233, 236, 239);
+    border-radius: 3px;
+}
+
+.shadow-card {
+    box-shadow: 5px 10px #ccc;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.padded-card {
+    padding: 10px;
+}
+
+.enter-right {
+    
+}
+
+.clear-background {
+    background: none;
+}
+
+.page-header {
+    /*background-image: url("https://lakkie.net/res/plug.svg");*/
+    padding-bottom: 75px;
+}
