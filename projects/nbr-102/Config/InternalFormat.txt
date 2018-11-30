@@ -1,0 +1,1 @@
+On average, we are %s. Our public support is %s, stability is %s, and war support is %s.

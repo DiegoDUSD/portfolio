@@ -1,0 +1,11 @@
+%s is a %s nation. %s
+
+%s
+
+%s
+
+%s
+
+%s
+
+%s

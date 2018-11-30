@@ -1,0 +1,9 @@
+v1.02:
+	- Added update checker
+v1.01:
+	- Added soft-codable menus
+	- Fixed some menu-related bugs
+v1.00:
+	- Created National Breakdown
+	- Added 4 historical presets.
+	- Added logging system.

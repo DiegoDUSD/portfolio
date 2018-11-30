@@ -1,0 +1,21 @@
+;;;;;;;;;;
+; Events ;
+;;;;;;;;;;
+
+; There are many events that can be called at any point, and this is a list that includes all of them
+; They are organized in the following format: category:function(arg0, arg1, arg2)
+
+; app:start() - This will open the main menu. Usually called by splash screen.
+; window:close() - In a menu, this will close the active one
+; scenario:load(filename) - This loads a scenario from the list of scenarios
+; nation:open(filename) - This loads a national breakdown and opens it. This can be NationDatabase/Germany1938.nationdb
+; nation:delete(filename) - This deletes a national breakdown. This must be in a situation without it being open. Same filename format as before.
+
+
+
+[menu] {
+	menu = "Config/Menus/SplashScreen.cini"
+	[trigger] {
+		trigger = "start"
+	}
+}

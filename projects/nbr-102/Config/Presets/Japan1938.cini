@@ -1,0 +1,71 @@
+[nation] {
+
+	name = "Japan"
+
+	filename = "Japan-1938"
+
+	[diplomatic] {
+		alliance = "None"
+
+		[rivals] {
+			rival = "Soviet Union"
+			rival = "United States"
+			rival = "Second United Front"
+		}
+
+		[allies] {
+			ally = "Manchukuo"
+			ally = "Mengjiang"
+			ally = "Provisional Government of ROC"
+		}
+	}
+
+	[focus] {
+		name = "Expanding the Provisional Government"
+
+		[scales] {
+			diplomatic = 0.70
+			industrial = 0.15
+			internal = 0.40
+			military = 0.45
+			ideological = 0.15
+			naval = 0.10
+		}
+	}
+
+	[ideology] {
+		; Options are CENTIRMS, CONSERVATISM, LIBERALISM, SOCIALISM, CAPITALISM, and MIXED_ECONOMY
+		economic = "SOCIALISM"
+		; Options are ANARCHISM, AUTHORITARIAN, FASCIST, COMMUNIST, and NON_ALIGNED
+		government = "FASCIST"
+	}
+
+	[industrial] {
+		factories = 120
+		naval_shipyards = 50
+		mobilization_rate = 0.65
+	}
+
+	[internal] {
+		public_support = 0.75
+		stability = 0.60
+		war_support = 0.95
+	}
+
+	[military] {
+		total_troops = 2000000
+		reserve = 6000000
+		stockpile = 150000
+		strength_rate = 0.66
+	}
+
+	[navy] {
+		convoy_ships = 3000
+
+		[battleships] {
+			regular = 265
+			capital = 40
+		}
+	}
+
+}

@@ -1,0 +1,4 @@
+%s is focusing on %s,
+which involves %s diplomatic effort, %s industrial effort, %s internal effort,
+%s military effort, %s ideological effort, and %s naval effort.
+In total, this requires %s national effort.

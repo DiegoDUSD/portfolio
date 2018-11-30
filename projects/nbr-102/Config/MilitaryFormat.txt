@@ -1,0 +1,2 @@
+We have %s effective troops, with %s deployed, %s in reserve, and %s arms reserve.
+Each of our forces have %s effectiveness in combat.

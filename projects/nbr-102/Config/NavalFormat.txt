@@ -1,0 +1,1 @@
+We have a(n) %s navy. This is comprised of %s convoy ships, %s normal warships, and %s large (or capital) ships.

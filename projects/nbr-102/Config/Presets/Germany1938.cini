@@ -1,0 +1,74 @@
+[nation] {
+
+	name = "Germany"
+
+	filename = "Germany-1938"
+
+	[diplomatic] {
+		alliance = "Axis"
+
+		[rivals] {
+			rival = "Soviet Union"
+			rival = "United States"
+			rival = "United Kingdom"
+			rival = "France"
+		}
+
+		[allies] {
+			ally = "Italy"
+			ally = "Greater East-Asian Prosperity Sphere"
+			ally = "Bulgaria"
+			ally = "Hungary"
+			ally = "Romania"
+		}
+	}
+
+	[focus] {
+		name = "Annexing Austria"
+
+		[scales] {
+			diplomatic = 0.65
+			industrial = 0.30
+			internal = 0.20
+			military = 0.55
+			ideological = 0.25
+			naval = 0.10
+		}
+	}
+
+	[ideology] {
+		; Options are CENTIRMS, CONSERVATISM, LIBERALISM, SOCIALISM, CAPITALISM, and MIXED_ECONOMY
+		economic = "SOCIALISM"
+		; Options are ANARCHISM, AUTHORITARIAN, FASCIST, COMMUNIST, and NON_ALIGNED
+		government = "FASCIST"
+	}
+
+	[industrial] {
+		factories = 100
+		naval_shipyards = 25
+		mobilization_rate = 0.35
+	}
+
+	[internal] {
+		public_support = 0.90
+		stability = 0.65
+		war_support = 1.00
+	}
+
+	[military] {
+		total_troops = 1200000
+		reserve = 1750000
+		stockpile = 25000
+		strength_rate = 0.95
+	}
+
+	[navy] {
+		convoy_ships = 400
+
+		[battleships] {
+			regular = 60
+			capital = 15
+		}
+	}
+
+}

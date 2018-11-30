@@ -1,0 +1,74 @@
+[nation] {
+
+	name = "Germany"
+
+	filename = "Germany-1942"
+
+	[diplomatic] {
+		alliance = "Axis"
+
+		[rivals] {
+			rival = "Soviet Union"
+			rival = "United States"
+			rival = "United Kingdom"
+			rival = "France"
+		}
+
+		[allies] {
+			ally = "Italy"
+			ally = "Greater East-Asian Prosperity Sphere"
+			ally = "Bulgaria"
+			ally = "Hungary"
+			ally = "Romania"
+		}
+	}
+
+	[focus] {
+		name = "Attacking the USSR"
+
+		[scales] {
+			diplomatic = 0.40
+			industrial = 0.15
+			internal = 0.05
+			military = 0.65
+			ideological = 0.10
+			naval = 0.15
+		}
+	}
+
+	[ideology] {
+		; Options are CENTIRMS, CONSERVATISM, LIBERALISM, SOCIALISM, CAPITALISM, and MIXED_ECONOMY
+		economic = "SOCIALISM"
+		; Options are ANARCHISM, AUTHORITARIAN, FASCIST, COMMUNIST, and NON_ALIGNED
+		government = "FASCIST"
+	}
+
+	[industrial] {
+		factories = 210
+		naval_shipyards = 30
+		mobilization_rate = 0.55
+	}
+
+	[internal] {
+		public_support = 0.90
+		stability = 0.50
+		war_support = 1.00
+	}
+
+	[military] {
+		total_troops = 3250000
+		reserve = 3800000
+		stockpile = 75000
+		strength_rate = 0.80
+	}
+
+	[navy] {
+		convoy_ships = 2400
+
+		[battleships] {
+			regular = 125
+			capital = 20
+		}
+	}
+
+}

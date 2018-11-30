@@ -1,0 +1,9 @@
+[presets] {
+
+	path = "Config/Presets/Germany1938.cini"
+	path = "Config/Presets/Germany1942.cini"
+
+	path = "Config/Presets/Japan1938.cini"
+	path = "Config/Presets/Japan1942.cini"
+
+}

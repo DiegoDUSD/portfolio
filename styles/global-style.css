@@ -27,3 +27,13 @@
 .intended-text {
      margin-left: 15px;
 }
+
+.size-image-cap {
+    max-width: 100%;
+}
+
+.vertical-align-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}

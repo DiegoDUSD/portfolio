@@ -1,0 +1,16 @@
+*Read AppInstructions.txt for more details.
+
+	This application's goal is to create a national breakdown, or database containing
+information about a country. It can be split into hard-coded, and soft-coded.
+
+	Soft-coded content are things that can change, e.g. DiplomaticFormat.txt,
+PresetList.cini, and SplashScreen.cini. The majority of these files are written in CINI
+configuration, which is a language created by Diego, which is a more complex version of
+Windows' .ini file format.
+	
+	Hard-coded content are the things that are not changed by the regular user, which are
+things like the complex menus, the main menu, the "manage" menu, and nation management
+menu.
+
+	As development continues, we hope to see more soft-coded content to help make the
+software to the user's liking, if they have the knowledge to change it.

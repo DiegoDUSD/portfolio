@@ -1,0 +1,1 @@
+%s has a(n) %s industry, with %s factories at %s mobilization, and %s naval shipyards.

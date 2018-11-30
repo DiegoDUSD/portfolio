@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Documentation Displayer</title>
+        <link rel="stylesheet" href="documentation-viewer.css">
+    </head>
+    <body>
+        
+        <h2>Version: 1.02</h2><br>
+        
+        <h1>Application Documentation(Short)</h1><br>
+        <p>This application's goal is to create a national breakdown, or 
+        database containing information about a country. It can be split into 
+        hard-coded, and soft-coded.</p>
+        
+        <p>Soft-coded content are things that can change, e.g. 
+        DiplomaticFormat.txt, PresetList.cini, and SplashScreen.cini. The 
+        majority of these files are written in CINI configuration, which is a 
+        language created by Diego, which is a more complex version of Windows' 
+        .ini file format.</p>
+        	
+        <p>Hard-coded content are the things that are not changed by the regular
+        user, which are things like the complex menus, the main menu, the 
+        "manage" menu, and nation management menu.</p>
+        
+        <p>As development continues, we hope to see more soft-coded content to
+        help make the software to the user's liking, if they have the knowledge
+        to change it.</p>
+        <br>
+        
+        <h1>Application Documentation(Full)</h1><br>
+        <p>This is an application to manage national breakdowns and statistics 
+        about nations. It is can be explained by breaking it down into 2 parts. 
+        The configuration, and hard-coded menus.</p>
+        
+        <p>The configurations are the things that can be changed without knowing
+        how to code. It is currently expanding with the ability to soft-code 
+        menus, which is currently used for the opening credits. It includes 
+        documentation on how to write it, and should be able to be changed 
+        without much difficulty. They are expanding to try to move a large part
+        of the software from code, to reading the configuration files to be able
+        to modify and add content on a whim. It uses CINI configuration files, 
+        which is also designed by Diego. CINI configuration files can be 
+        modelled off of .ini Windows files, but with brackets to created nested
+        sections. It also uses quotes to signify text, numbers without quotes 
+        to signify numbers, and "true" or "false" without the quotes to signify
+        true/false or boolean values. It also supports indentation.</p>
+        
+        <p>Hard-coded menus are the ones that requires programming knowledge to
+        change. Right now, they make up most of the menus and are the backbone 
+        of this application. These menus include all the necessary logic, and
+        there is the "create new" menu, which is to create a new database. There
+        is the "main" menu, which is to perform an action, and the "nation" menu
+        to edit the nation's properties. There are also a few other minors. This
+        also includes the logic behind reading the CINI configuration files.</p>
+        
+        <p>This attempts to create a good experience using Java's Swing library,
+        coupled with OS-specific look and feel. This will try to help the user 
+        make the software fit in better in with the OS' software.</p>
+        
+    </body>
+</html>
