@@ -1,5 +1,13 @@
+.shaded-area *, btn {
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: rgb(17, 17, 17);
+}
+
 .shaded-area {
-    background-color: rgb(233, 236, 239);
+    background-color: rgb(17, 17, 17);
     border-radius: 3px;
 }
 
