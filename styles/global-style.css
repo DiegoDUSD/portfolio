@@ -29,7 +29,7 @@
 
 .page-header {
     /*background-image: url("https://lakkie.net/res/plug.svg");*/
-    padding-bottom: 75px;
+    padding-bottom: 10px;
 }
 
 .intended-text {
@@ -44,4 +44,26 @@
     display: inline-block;
     height: 100%;
     vertical-align: middle;
+}
+
+.spacing-card {
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    padding-right: 16px;
+}
+
+.project-link-button {
+    position: absolute;
+    bottom: 8px;
+    left: 32px;
+}
+
+.selected-button {
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+
+.nav-row-fix {
+    width: 100%;
 }

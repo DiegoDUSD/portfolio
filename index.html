@@ -13,14 +13,14 @@
         <!-- Header -->
         <!-- Navigation using anchors, container is for padding -->
         <nav>
-            <div class="row">
+            <div class="row nav-row-fix">
                 <div class="col-1"></div>
-                <a href="#" class="hoverable-button btn btn-primary col-2">Home</a>
+                <a href="#" class="hoverable-button btn selected-button col-2">Home</a>
                 <a href="VanSchie_AboutMe.html" class="hoverable-button btn col-2">About Me</a>
                 <a href="VanSchie_Resume.html" class="hoverable-button btn col-2">Resume</a>
                 <a href="VanSchie_Projects.html" class="hoverable-button btn col-2">Projects</a>
                 <a href="VanSchie_Contact.html" class="hoverable-button btn col-2">Contact Me</a>
-                <div class="col-1"></div>
+                <!--<div class="col-1"></div>-->
             </div>
         </nav>
         <div class="page-header">
@@ -29,56 +29,29 @@
                 <h1>Diego's Home Page</h1>
             </div>
         </div>
-        <div class="jumbotron" style="background-color: white;">
-            <div class="row" style="margin-bottom: 5px;">
-                <div class="col-4">
-                    <h4>Project</h4>
-                    <h2>ACL</h2>
-                    <p>
-                        Adaptable Configuration Language - This is a project 
-                        recently developed which is written in Java. It is a 
-                        configuration language meant for one-time reading and to be 
-                        flexible.
-                    </p>
-                </div>
-                <div class="col-2">
-                    <img src="Images/project-example-config.png" class="size-image-cap" style="vertical-align: middle;">
-                </div>
-                <div class="col-4">
-                    <h4>Work Experience</h4>
-                    <h2>Image Knobs</h2>
-                    <p>
-                        Image Knobs - This is a small JavaScript and CSS library 
-                        used for putting buttons on top of certain areas in an image.
-                    </p>
-                </div>
-                <div class="col-2"></div>
-            </div>
-            <div class="row">
-                <div class="col-4">
-                    <h4>Project</h4>
-                    <h2>BattleMania</h2>
-                    <p>
-                        BattleMania - This is a project created by me 2 years ago, 
-                        created by me with help of a friend's ideas. This was not a 
-                        commission ordered by somebody else, but instead, for my own
-                        learning and interest.
-                    </p>
-                    <a href="#">Continued...</a>
-                </div>
-                <div class="col-2"></div>
-                <div class="col-4">
-                    <h4>Project</h4>
-                    <h2>R.U.B.S.</h2>
-                    <p>
-                        Risk Universalis Battle Simulator(will be referred to as 
-                        RUBS) is an application which tries to simulate battles for
-                        the game: Risk Universalis.
-                    </p>
-                    <a href="#">Continued...</a>
-                </div>
-                <div class="col-2">
-                    <img src="Images/battle-setup-frame.png" class="size-image-cap">
+        
+        <div class="container" style="background-color: white;">
+            <div style="margin-bottom: 5px;">
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <div class="card">
+                            <div class="row spacing-card">
+                                <div class="col-8">
+                                    <div class="spacing-card">
+                                        <h4>Hangman Project</h4>
+                                        <p>
+                                            This is the hangman project Thomas Andrews and I developed about halfway through Computer Science Principles. This is a Python script which can be run via command line, and prompts you with a historical figure, with which you can play hangman.
+                                        </p>
+                                    </div>
+                                    <!--<button type="button" class="btn btn-dark project-link-button">Continue reading...</button>-->
+                                </div>
+                                <div class="col-4">
+                                    <a href="Images/hangman-output.png" target="_blank"><img src="Images/hangman-output.png" class="card-img"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
