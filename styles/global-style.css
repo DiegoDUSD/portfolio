@@ -1,4 +1,5 @@
-.shaded-area *, btn {
+.shaded-area *,
+btn {
     color: #fff;
 }
 
@@ -33,7 +34,7 @@
 }
 
 .intended-text {
-     margin-left: 15px;
+    margin-left: 15px;
 }
 
 .size-image-cap {
@@ -66,4 +67,8 @@
 
 .nav-row-fix {
     width: 100%;
+}
+
+img {
+    min-width: 200px;
 }
